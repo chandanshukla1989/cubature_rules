@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Two cubature rules for the hypercube, with independent verification"
+message: "If you use these rules, please cite this repository."
+type: dataset
+authors:
+  - given-names: Chandan
+    family-names: Shukla
+    orcid: "https://orcid.org/0009-0008-0897-4332"
+    affiliation: "Independent researcher"
+abstract: >-
+  Explicit nodes and weights for two positive interior cubature rules for the
+  uniform measure on the hypercube: a 31-node rule of degree 5 on [-1,1]^5,
+  which attains Moller's lower bound and is therefore minimal, and a 52-node
+  rule of degree 7 on [-1,1]^4. Both have strictly positive weights and all
+  nodes strictly interior, and both node sets are centrally symmetric. A
+  standard-library checker verifies every monomial of the stated degree against
+  exact rational targets, and a second script evaluates Moller's bound. Priority
+  against the earlier cubature literature has not been established and no
+  novelty is claimed.
+keywords:
+  - cubature
+  - numerical integration
+  - hypercube
+  - minimal cubature rule
+  - Moller bound
+license: CC-BY-4.0
+repository-code: "https://github.com/chandanshukla1989/cubature_rules"
