@@ -127,6 +127,24 @@ Each table has one node per row: `n` coordinates followed by the weight, with
 the ordinary unnormalised integral over `[-1,1]^n`, multiply every weight by
 `2^n` — that is 32 for the 5-cube and 16 for the 4-cube.
 
+## Acknowledgements
+
+The lower bound used throughout is due to **H. M. Möller** (1979); it is quoted
+and evaluated here, not reproved.
+
+The standard reference for what is already known in this area is the
+[Encyclopaedia of Cubature Formulas](https://nines.cs.kuleuven.be/research/ecf/),
+maintained by **Ronald Cools** at KU Leuven, which builds on the Cools and
+Rabinowitz compilation and on the long line of work going back to
+**A. H. Stroud** and **I. P. Mysovskikh**. Anyone checking whether these rules
+are new should start there rather than here.
+
+The counts these rules are compared against — 32 nodes for the 5-cube at
+degree 5, and 54 for the 4-cube at degree 7 — were read from a collection
+maintained by **Joris Pinkse** (Penn State), who looked at both results and
+offered to record them with attribution. The comparison is against that
+collection, not against the literature as a whole.
+
 ## Reuse
 
 The tables are offered for free reuse, including incorporation into any
