@@ -6,6 +6,11 @@ moment exactly and a script that computes Möller's lower bound.
 
 Chandan Shukla, independent researcher · <https://orcid.org/0009-0008-0897-4332>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24085370.svg)](https://doi.org/10.5281/zenodo.24085370)
+
+Cite as **doi:10.5281/zenodo.24085370**, which always resolves to the latest
+version; the present release is **doi:10.5281/zenodo.24085371**.
+
 | Region | Degree | Nodes | Möller lower bound | Status |
 | --- | --- | --- | --- | --- |
 | `[-1,1]^5` | 5 | **31** | 31 | **attains the bound — minimal** |

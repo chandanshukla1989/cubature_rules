@@ -25,3 +25,13 @@ keywords:
   - Moller bound
 license: CC-BY-4.0
 repository-code: "https://github.com/chandanshukla1989/cubature_rules"
+doi: "10.5281/zenodo.24085370"
+version: "v1.0"
+date-released: "2026-11-09"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24085370"
+    description: "Concept DOI, always the latest version"
+  - type: doi
+    value: "10.5281/zenodo.24085371"
+    description: "DOI of release v1.0"
